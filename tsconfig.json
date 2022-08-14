@@ -8,12 +8,13 @@
       "@interfaces/*": ["interfaces/*"],
       "@config/*": ["config/*"],
       "@helpers/*": ["helpers/*"],
+      "@hooks/*": ["hooks/*"],
       "@context/*": ["context/*"],
+      "@context": ["context/index"],
       "@db/*": ["db/*"],
       "@db": ["db/index"],
       "@public/*": ["public/*"],
-      "@images/*": ["public/images/*"],
-      "@lib/*": ["lib/*"]
+      "@images/*": ["public/images/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
